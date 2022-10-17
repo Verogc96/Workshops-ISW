@@ -1,15 +1,16 @@
+
 .FirstRectangle
 {
     background-color: white;
     width: 100%;
     height: 25%;
     text-align: middle;
+    vertical-align: sub;
 }
 
 h1,h2,h3,h4,p
 {
     font: Arial;
-    vertical-align: text-top;
 }
 
 .SecondRectangle
@@ -25,6 +26,7 @@ h1,h2,h3,h4,p
     width: 100%;
     height: 25%;
     text-align: center;
+  
 }
 
 p.ThirdRectangle
@@ -38,41 +40,79 @@ p.ThirdRectangle
     width: 100%;
     height: 25%;
     text-align: center;
+    color:white;
 }
 
-
-h2.rightPane, h2.centerPane, h2.leftPane
+h2.rightPane
 {
     font-size:20px; 
     color:rgb(114, 240, 198); 
 }
 
-h3.rightPane, h3.centerPane, h3.leftPane
+h2.centerPane
 {
-    font-size:15px; 
-    color:rgb(247, 247, 247); 
+    font-size:20px; 
+    color:rgb(114, 240, 198); 
 }
 
-h4.rightPane, h4.centerPane, h4.leftPane
+h2.leftPane
+{
+    font-size:20px; 
+    color:rgb(114, 240, 198); 
+}
+
+h3.rightPane
+{
+    font-size:15px; 
+    color:white; 
+}
+
+h3.centerPane
+{
+    font-size:15px; 
+    color:white; 
+}
+
+h3.leftPane
+{
+    font-size:15px; 
+    color:white; 
+}
+
+h4.rightPane 
 {
     font-size:10px; 
-    color:rgb(132, 236, 202); 
+    color:rgb(138, 236, 203); 
+}
+
+h4.centerPane
+{
+    font-size:10px; 
+    color:rgb(138, 236, 203);
+}
+
+h4.leftPane
+{
+    font-size:10px; 
+    color:rgb(138, 236, 203);
 }
 
 .rightPane
 {
     text-align:right;
+    vertical-align: middle;
 }
 
 .centerPane
 {
     text-align:center;
-    
+    vertical-align: middle;   
 }
 
 .leftPane
 {
     text-align:left;
+    vertical-align: middle;
 }
 
 .iPhonePhoto 
@@ -90,4 +130,6 @@ h4.rightPane, h4.centerPane, h4.leftPane
     border-radius:10px;
     width: 100px;
 }
+
+
 
